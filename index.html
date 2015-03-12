@@ -7,6 +7,23 @@
 			<meta name="viewport" content="width=device-width, initial-scale=1.0">
 			<meta name="description" content="Homepage of Martin Roos">
 			<link rel="stylesheet" href="css/main.css">
+			<!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>-->
+			<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+			<script src="js/jquery.firefly-0.3.js"></script>
+
+			<script>
+				$( document ).ready(function() {
+
+					$.firefly({
+						color: '#fff',
+						minPixel: 1,
+						maxPixel: 1,
+						total : 60,
+						on: '#firefly'
+					});
+
+				});
+			</script>
     </head>
     <body>
 
@@ -23,38 +40,33 @@
 			</header>
 
 			<div class="main">
-				<div class="box">
+				<div class="box filler">
 					<p>Lorem ipsum dolor sit amet, tempus feugiat, lacinia turpis nam potenti tempus et, iaculis neque eget neque integer. Pellentesque tortor viverra, blandit ante tristique vehicula, dapibus ligula semper bibendum sollicitudin a turpis, massa vitae facilisis eu sit, nulla ac. Sed dis metus. Metus erat mi sodales, in ante donec vehicula, quisque non aenean lectus justo, duis pellentesque in nisl tortor, at fusce sodales congue arcu. Turpis in, tellus fusce, pede elementum vestibulum eu lectus, mauris suspendisse mi quisque venenatis. Vestibulum felis in ultricies pharetra mattis fermentum, leo neque vestibulum integer est, lacus quod voluptatibus facilisis justo urna amet, non a ut risus.</p>
-					<p>Duis nullam ut. Per sed urna, magna nullam augue interdum litora odio, mauris urna mi id nisl. Arcu class senectus sed, donec sollicitudin wisi risus ut, eu sed. Tortor ante et lacinia rutrum, aliquam elementum augue sit, at elit. Amet vivamus lacus quis a, lobortis at.</p>
-					<p>Nullam cursus mi porttitor, consectetuer vitae turpis eu suspendisse imperdiet, non mauris magna leo. Pellentesque sollicitudin aliquet maecenas, duis pede ligula proin orci scelerisque. Libero pellentesque porta metus maecenas. Orci adipiscing. Malesuada eget id vestibulum tortor, cras fringilla hendrerit cursus pellentesque auctor, tellus ligula vel ut maecenas integer aliquet, et justo arcu eros, sit diam ac congue hendrerit enim phasellus. Turpis lacus euismod nunc sed hymenaeos, malesuada maecenas condimentum, amet laoreet orci. Urna nec netus nullam amet phasellus velit. Eros ultrices elit adipiscing cras, quam vitae nisi, a pede fusce justo tempus, vivamus veniam enim tellus. Quisque vitae pede, lacus massa ullamcorper, neque euismod vehicula sed tempor porttitor, sed posuere gravida cras. Elit lobortis cum quam quis purus, laoreet amet ad sit ipsum id. Lectus feugiat mauris posuere odio mattis, congue felis, et metus, ut augue commodo lectus orci pede scelerisque, arcu nullam urna elit vel.</p>
 				</div>
 
 				<div class="img-box" style="background-image: url('http://i.imgur.com/TR5dlSx.jpg')">
 					<p>Lorem ipsum dolor sit amet, facilisi dolor sapien diam, libero dictumst facilisis a vel dolor quis, donec nonummy aliquet.</p>
 				</div>
 
-				<div class="box">
+				<div class="box filler">
 					<p>Nullam cursus mi porttitor, consectetuer vitae turpis eu suspendisse imperdiet, non mauris magna leo. Pellentesque sollicitudin aliquet maecenas, duis pede ligula proin orci scelerisque. Libero pellentesque porta metus maecenas. Orci adipiscing. Malesuada eget id vestibulum tortor, cras fringilla hendrerit cursus pellentesque auctor, tellus ligula vel ut maecenas integer aliquet, et justo arcu eros, sit diam ac congue hendrerit enim phasellus. Turpis lacus euismod nunc sed hymenaeos, malesuada maecenas condimentum, amet laoreet orci. Urna nec netus nullam amet phasellus velit. Eros ultrices elit adipiscing cras, quam vitae nisi, a pede fusce justo tempus, vivamus veniam enim tellus. Quisque vitae pede, lacus massa ullamcorper, neque euismod vehicula sed tempor porttitor, sed posuere gravida cras. Elit lobortis cum quam quis purus, laoreet amet ad sit ipsum id. Lectus feugiat mauris posuere odio mattis, congue felis, et metus, ut augue commodo lectus orci pede scelerisque, arcu nullam urna elit vel.</p>
-					<p>Lorem ipsum dolor sit amet, tempus feugiat, lacinia turpis nam potenti tempus et, iaculis neque eget neque integer. Pellentesque tortor viverra, blandit ante tristique vehicula, dapibus ligula semper bibendum sollicitudin a turpis, massa vitae facilisis eu sit, nulla ac. Sed dis metus. Metus erat mi sodales, in ante donec vehicula, quisque non aenean lectus justo, duis pellentesque in nisl tortor, at fusce sodales congue arcu. Turpis in, tellus fusce, pede elementum vestibulum eu lectus, mauris suspendisse mi quisque venenatis. Vestibulum felis in ultricies pharetra mattis fermentum, leo neque vestibulum integer est, lacus quod voluptatibus facilisis justo urna amet, non a ut risus.</p>
+					<p>Duis nullam ut. Per sed urna, magna nullam augue interdum litora odio, mauris urna mi id nisl. Arcu class senectus sed, donec sollicitudin wisi risus ut, eu sed. Tortor ante et lacinia rutrum, aliquam elementum augue sit, at elit. Amet vivamus lacus quis a, lobortis at.</p>
 				</div>
 
-				<div class="img-box" style="background-image: url('http://i.imgur.com/LjvJ589.jpg')">
+				<div id="firefly" class="img-box" style="background-image: url('http://i.imgur.com/LjvJ589.jpg')">
 					<p>Lorem ipsum dolor sit amet, facilisi dolor sapien diam, libero dictumst facilisis a vel dolor quis, donec nonummy aliquet.</p>
 				</div>
 
-				<div class="box">
+				<div class="box filler">
 					<p>Lorem ipsum dolor sit amet, tempus feugiat, lacinia turpis nam potenti tempus et, iaculis neque eget neque integer. Pellentesque tortor viverra, blandit ante tristique vehicula, dapibus ligula semper bibendum sollicitudin a turpis, massa vitae facilisis eu sit, nulla ac. Sed dis metus. Metus erat mi sodales, in ante donec vehicula, quisque non aenean lectus justo, duis pellentesque in nisl tortor, at fusce sodales congue arcu. Turpis in, tellus fusce, pede elementum vestibulum eu lectus, mauris suspendisse mi quisque venenatis. Vestibulum felis in ultricies pharetra mattis fermentum, leo neque vestibulum integer est, lacus quod voluptatibus facilisis justo urna amet, non a ut risus.</p>
-					<p>Nullam cursus mi porttitor, consectetuer vitae turpis eu suspendisse imperdiet, non mauris magna leo. Pellentesque sollicitudin aliquet maecenas, duis pede ligula proin orci scelerisque. Libero pellentesque porta metus maecenas. Orci adipiscing. Malesuada eget id vestibulum tortor, cras fringilla hendrerit cursus pellentesque auctor, tellus ligula vel ut maecenas integer aliquet, et justo arcu eros, sit diam ac congue hendrerit enim phasellus. Turpis lacus euismod nunc sed hymenaeos, malesuada maecenas condimentum, amet laoreet orci. Urna nec netus nullam amet phasellus velit. Eros ultrices elit adipiscing cras, quam vitae nisi, a pede fusce justo tempus, vivamus veniam enim tellus. Quisque vitae pede, lacus massa ullamcorper, neque euismod vehicula sed tempor porttitor, sed posuere gravida cras. Elit lobortis cum quam quis purus, laoreet amet ad sit ipsum id. Lectus feugiat mauris posuere odio mattis, congue felis, et metus, ut augue commodo lectus orci pede scelerisque, arcu nullam urna elit vel.</p>
 				</div>
 
 				<div class="img-box" style="background-image: url('http://i.imgur.com/RyEQC4J.jpg')">
 					<p>Lorem ipsum dolor sit amet, facilisi dolor sapien diam, libero dictumst facilisis a vel dolor quis, donec nonummy aliquet.</p>
 				</div>
 
-				<div class="box">
+				<div class="box filler">
 					<p>Lorem ipsum dolor sit amet, tempus feugiat, lacinia turpis nam potenti tempus et, iaculis neque eget neque integer. Pellentesque tortor viverra, blandit ante tristique vehicula, dapibus ligula semper bibendum sollicitudin a turpis, massa vitae facilisis eu sit, nulla ac. Sed dis metus. Metus erat mi sodales, in ante donec vehicula, quisque non aenean lectus justo, duis pellentesque in nisl tortor, at fusce sodales congue arcu. Turpis in, tellus fusce, pede elementum vestibulum eu lectus, mauris suspendisse mi quisque venenatis. Vestibulum felis in ultricies pharetra mattis fermentum, leo neque vestibulum integer est, lacus quod voluptatibus facilisis justo urna amet, non a ut risus.</p>
-					<p>Duis nullam ut. Per sed urna, magna nullam augue interdum litora odio, mauris urna mi id nisl. Arcu class senectus sed, donec sollicitudin wisi risus ut, eu sed. Tortor ante et lacinia rutrum, aliquam elementum augue sit, at elit. Amet vivamus lacus quis a, lobortis at.</p>
-					<p>Nullam cursus mi porttitor, consectetuer vitae turpis eu suspendisse imperdiet, non mauris magna leo. Pellentesque sollicitudin aliquet maecenas, duis pede ligula proin orci scelerisque. Libero pellentesque porta metus maecenas. Orci adipiscing. Malesuada eget id vestibulum tortor, cras fringilla hendrerit cursus pellentesque auctor, tellus ligula vel ut maecenas integer aliquet, et justo arcu eros, sit diam ac congue hendrerit enim phasellus. Turpis lacus euismod nunc sed hymenaeos, malesuada maecenas condimentum, amet laoreet orci. Urna nec netus nullam amet phasellus velit. Eros ultrices elit adipiscing cras, quam vitae nisi, a pede fusce justo tempus, vivamus veniam enim tellus. Quisque vitae pede, lacus massa ullamcorper, neque euismod vehicula sed tempor porttitor, sed posuere gravida cras. Elit lobortis cum quam quis purus, laoreet amet ad sit ipsum id. Lectus feugiat mauris posuere odio mattis, congue felis, et metus, ut augue commodo lectus orci pede scelerisque, arcu nullam urna elit vel.</p>
 				</div>
 			</div>
 
